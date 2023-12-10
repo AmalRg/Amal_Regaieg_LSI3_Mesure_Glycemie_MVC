@@ -10,6 +10,7 @@ public class Patient {
         this.age = age;
         this.ValMes = ValMes;
         this.jeune = jeune;
+        calculer();
     }
     public int getAge() {
         return age;
